@@ -1,117 +1,129 @@
-# QR-Based Digital Library System
+# 📚 QR-Based Digital Library System
 
-A desktop-based Digital Library Management System developed using C# Windows Forms and MySQL. The system automates book circulation using QR codes and provides features for book issuing, returning, fine calculation, activity logging, recommendations, and library analytics.
+A comprehensive Digital Library Management System developed to automate library operations using QR Code technology.
+
+The system allows librarians and administrators to manage books, students, book issuing, returns, overdue records, fines, and borrowing history efficiently. QR codes are used to simplify and automate book circulation processes.
+
+---
 
 ## 📌 Project Overview
 
-The QR-Based Digital Library System is designed to simplify and automate common library operations.
+The QR-Based Digital Library System is designed to digitize and automate traditional library management processes.
 
-Instead of manually entering book and student information, librarians can use QR codes to quickly issue and return books. The system also maintains digital borrowing records, calculates overdue fines, and provides administrative insights through dashboards and reports.
+The system enables users to manage book circulation through QR Code scanning while maintaining digital records of issued books, returned books, overdue books, fines, and student borrowing history.
 
-## ✨ Features
+The project provides role-based access and administrative features to help librarians efficiently manage library operations.
 
-- 🔐 Secure user login and authentication
-- 📚 Digital book management
-- 👨‍🎓 Student/member management
-- 📱 QR code-based book issuing
-- 🔄 QR code-based book returns
-- 📅 Automatic due-date tracking
-- ⚠️ Overdue book detection
-- 💰 Automatic fine calculation
-- 📊 Library analytics and dashboard
-- 📖 Borrowing history tracking
-- 🚫 Defaulters identification
-- 🤖 Book recommendation functionality
-- 👥 Role-based access control
-- 📝 Activity and system logging
-- 🏢 Multi-branch library support
-- 🔒 Security measures against common database attacks
-- 💾 Database backup and archival support
+---
+
+## 🚀 Features
+
+### 📖 Book Management
+- Add and manage books
+- Track book availability
+- Maintain book records digitally
+
+### 📱 QR Code-Based Book Issuing
+- Scan QR codes to identify books
+- Issue books to students
+- Maintain digital issue records
+- Apply borrowing limits
+
+### 🔄 QR Code-Based Book Returns
+- Scan QR codes to return books
+- Automatically update book availability
+- Record return dates digitally
+
+### ⏰ Overdue Book Detection
+- Identify overdue books
+- Display overdue warnings
+- Track students with overdue books
+
+### 💰 Automatic Fine Calculation
+- Automatically calculate fines for overdue books
+- Maintain fine records
+- Track fine payments
+
+### 👨‍🎓 Student Management
+- Manage student information
+- Track borrowing history
+- View currently issued books
+
+### 🔐 Role-Based Access Control
+- Separate access for administrators and users
+- Secure management of library operations
+
+### 📊 Dashboard & Analytics
+- View total issued books
+- Monitor overdue books
+- Track active borrowers
+- View fine reports
+- Identify most borrowed books
+- Monitor defaulters
+
+### 🤖 Advanced Features
+- AI-based book recommendations
+- Activity logging
+- Digital borrowing history
+- Enhanced security features
+
+---
 
 ## 🛠️ Technologies Used
 
-### Frontend
-- C#
-- Windows Forms
-- Guna UI / Guna2 Controls
+| Technology | Purpose |
+|------------|---------|
+| C# | Core programming language |
+| .NET Framework 4.8 | Application framework |
+| Windows Forms | Desktop application user interface |
+| MySQL | Database management |
+| MySQL Connector | Database connectivity |
+| ZXing | QR Code generation and scanning |
+| Guna UI | Modern user interface components |
+| Git | Version control |
+| GitHub | Project hosting and collaboration |
 
-### Backend
-- MySQL
-- MySQL Connector/NET
+---
 
-### QR Code
-- ZXing
-- AForge.Video
+## 📸 Project Screenshots
 
-### Development Tools
-- Visual Studio
-- MySQL Workbench
-- Git & GitHub
+Screenshots of the application are available below.
 
-## 🏗️ System Modules
+### 🔐 Login Page
 
-### Authentication
-Provides login functionality and controls access according to the user's role.
+![Login Page](Screenshots/login.png)
 
-### Book Management
-Allows administrators and librarians to manage books, availability, authors, publishers, and related information.
+### 📊 Dashboard
 
-### QR-Based Circulation
-QR codes are used to quickly identify books and automate issuing and returning operations.
+![Dashboard](Screenshots/dashboard.png)
 
-### Fine Management
-The system automatically identifies overdue books and calculates applicable fines.
+### 📚 Book Management
 
-### Dashboard & Analytics
-Provides information such as:
+![Book Management](Screenshots/books.png)
 
-- Total issued books
-- Overdue books
-- Active borrowers
-- Fine reports
-- Most borrowed books
-- Defaulters
+### 📱 QR Code Scanner
 
-### Recommendation System
-Provides book recommendations based on available library and borrowing data.
+![QR Scanner](Screenshots/qr-scanner.png)
 
-### Activity Logging
-Important system activities such as login, book issue, book return, fine payment, and failed attempts can be recorded for monitoring and auditing.
+---
 
-## 📸 Screenshots
+## 📂 Project Structure
 
-### Login
-
-![Login Screen](screenshots/login.png)
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### Book Management
-
-![Book Management](screenshots/books.png)
-
-### QR Scanner
-
-![QR Scanner](screenshots/qr-scanner.png)
-
-### My Books
-
-![My Books](screenshots/my-books.png)
-
-## 💻 Installation & Setup
-
-### Prerequisites
-
-Make sure the following software is installed:
-
-- Visual Studio
-- .NET Framework / required .NET version
-- MySQL Server
-- MySQL Workbench
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Azan-Qamar/QR-Based-Digital-Library-System.git
+```text
+QR-Based-Digital-Library-System
+│
+├── QRLibrarySystem
+│   ├── Forms
+│   ├── DBConnection.cs
+│   ├── Program.cs
+│   └── Other Source Files
+│
+├── Screenshots
+│
+├── packages
+│
+├── QRLibrarySystem.sln
+│
+├── .gitignore
+│
+└── README.md

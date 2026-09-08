@@ -95,8 +95,7 @@ Screenshots of the application are available below.
 
 ### 📊 Dashboard
 
-![Dashboard](./Lib
-_Screenshots/dashboard.png)
+![Dashboard](./Lib_Screenshots/dashboard.png)
 
 ### 📚 Book Management
 

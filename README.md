@@ -91,19 +91,19 @@ Screenshots of the application are available below.
 
 ### 🔐 Login Page
 
-![Login Page](Screenshots/login.png)
+![Login Page](./Screenshots/login.png)
 
 ### 📊 Dashboard
 
-![Dashboard](Screenshots/dashboard.png)
+![Dashboard](./Screenshots/dashboard.png)
 
 ### 📚 Book Management
 
-![Book Management](Screenshots/books.png)
+![Book Management](./Screenshots/books.png)
 
 ### 📱 QR Code Scanner
 
-![QR Scanner](Screenshots/qr-scanner.png)
+![QR Scanner](./Screenshots/qr-scanner.png)
 
 ---
 

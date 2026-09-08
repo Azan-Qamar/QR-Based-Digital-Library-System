@@ -1,0 +1,9 @@
+# Database configuration containing password
+App.config
+
+# Visual Studio files
+.vs/
+
+# Build folders
+bin/
+obj/
